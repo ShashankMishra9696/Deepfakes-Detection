@@ -60,8 +60,8 @@ export default function DetectPage() {
       const url = `${process.env.NEXT_PUBLIC_BACKEND_URL}/predict?user_id=${userId}`;
 
       const response = await fetch(url, {
-        method: "POST",
-        body: formData,
+      method: "POST",
+      body: formData,
       });
 
       if (!response.ok) {

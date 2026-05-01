@@ -10,6 +10,9 @@ __pycache__/
 # ML models
 *.safetensors
 
+# Secrets
+firebase-service-account.json
+
 # System
 .env
 *.log
