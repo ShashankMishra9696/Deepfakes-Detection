@@ -1,0 +1,21 @@
+# Node
+node_modules/
+.next/
+
+# Python
+venv/
+Backend/venv/
+__pycache__/
+
+# ML models
+*.safetensors
+
+# System
+.env
+*.log
+*.dll
+*.lib
+*.pyd
+
+# VS Code
+.vscode/
