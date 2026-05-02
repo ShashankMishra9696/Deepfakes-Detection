@@ -1,4 +1,4 @@
-# Deepfake Detection API
+# Deepfake Detection 
 
 A full-stack web application for detecting deepfake images using a Vision Transformer (ViT) model. The backend is built with FastAPI and PyTorch, while the frontend uses Next.js with Firebase for authentication and data storage.
 
