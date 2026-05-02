@@ -8,6 +8,12 @@ Backend/venv/
 __pycache__/
 
 # ML models
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
 *.safetensors
 
 # Secrets
