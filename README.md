@@ -25,64 +25,17 @@ A full-stack web application for detecting deepfake images using a Vision Transf
 - Git LFS (for the model file)
 
 ### Backend Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ShashankMishra9696/Deepfakes-Detector.git
-   cd Deepfakes-Detector
-   ```
-
-2. Install Git LFS and pull the model:
-   ```bash
-   git lfs install
-   git lfs pull
-   ```
-
-3. Navigate to the Backend directory:
-   ```bash
-   cd Backend
-   ```
-
-4. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Set up Firebase (optional for full functionality):
-   - Place your `firebase-service-account.json` in the `Backend/` directory.
-   - Update Firebase config in the frontend if needed.
-
-6. Run the backend:
-   ```bash
-   python -m uvicorn app:app --host 0.0.0.0 --port 8000
-   ```
+1. Navigate to the Backend directory.
+2. Install Python dependencies: `pip install -r requirements.txt`
+3. Set up Firebase (optional for full functionality).
+4. Run the backend: `python -m uvicorn app:app --host 0.0.0.0 --port 8000`
 
 ### Frontend Setup
-1. Navigate to the Frontend directory:
-   ```bash
-   cd ../Frontend
-   ```
-
-2. Install Node.js dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env.local` file with your Firebase config and backend URL:
-   ```
-   NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-   NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-   NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
-   NEXT_PUBLIC_FIREBASE_DATABASE_URL=your_database_url
-   ```
-
-4. Run the frontend:
-   ```bash
-   npm run dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+1. Navigate to the Frontend directory.
+2. Install Node.js dependencies: `npm install`
+3. Create a `.env.local` file with your Firebase config and backend URL.
+4. Run the frontend: `npm run dev`
+5. Open in browser.
 
 ## API Endpoints
 
@@ -110,16 +63,9 @@ The model is loaded lazily on the first prediction request.
 
 ## Deployment
 
-- **Backend**: Deploy to services like Render, Railway, or Heroku.
-- **Frontend**: Deploy to Vercel or Netlify.
-- Ensure environment variables are set for Firebase and backend URL.
-
-## Contributing
-
-1. Fork the repo.
-2. Create a feature branch.
-3. Commit changes.
-4. Push and create a PR.
+- **Backend**: Deploy to cloud services.
+- **Frontend**: Deploy to hosting platforms.
+- Ensure environment variables are set.
 
 ## License
 
