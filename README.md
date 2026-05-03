@@ -2,6 +2,7 @@
 
 A full-stack web application for detecting deepfake images using a Vision Transformer (ViT) model. The backend is built with FastAPI and PyTorch, while the frontend uses Next.js with Firebase for authentication and data storage.
 
+
 ## Features
 
 - **Image Upload & Prediction**: Upload images to detect if they are real or fake.
